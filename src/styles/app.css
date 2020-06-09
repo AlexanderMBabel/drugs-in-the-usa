@@ -1,3 +1,35 @@
 body {
   margin: 0;
 }
+
+svg,
+select {
+  margin: 0 auto;
+  display: block;
+}
+
+path {
+  stroke: #ccc;
+  stroke-width: 0.25px;
+}
+
+select {
+  padding: 20px;
+  outline: none;
+  font-size: 20px;
+}
+
+span {
+  height: 40px;
+  width: 40px;
+  padding: 30px;
+}
+
+.key {
+  margin: 0 auto;
+  display: block;
+}
+
+.key p {
+  font-size: 14px;
+}
